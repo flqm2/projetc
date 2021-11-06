@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <input id="text" type="text" value="hello">
+        <button id="btn" onclick="func()">click</button>
+        <h1 id="h1"> Hello World </h1>
+        <img id="img" src="https://item.kakaocdn.net/do/d0abc6fe74e616536cf07626699bbc707154249a3890514a43687a85e6b6cc82"> 
+        <script>
+
+            function func(){
+                var text = document.getElementById("text").value;
+                document.isDefaultNamespace("img").src = text;
+            }
+
+            //console.log(document.getElementById("text").value)
+            //document.getElementById(img).src = "https://item.kakaocdn.net/do/493188dee481260d5c89790036be0e669f5287469802eca457586a25a096fd31"
+        </script>
+    </body>
+</html>
